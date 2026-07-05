@@ -1,0 +1,12 @@
+# Organization-wide issue template chooser configuration.
+# Blank issues stay enabled so repositories that rely on free-form issues keep
+# working; the contact links below steer security reports and questions to the
+# right place.
+blank_issues_enabled: true
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/eunolabs/.github/blob/main/SECURITY.md
+    about: Please do not open a public issue for security problems. Read the security policy and report privately.
+  - name: Question or need help?
+    url: https://github.com/eunolabs/.github/blob/main/SUPPORT.md
+    about: Usage questions and requests for help — see the support guide.
